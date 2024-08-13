@@ -6,7 +6,7 @@ import delivery from '../../../assets/icons/deliveryt.svg'
 
 const Features = () => {
     return (
-        <div className="lg:container mx-auto text-center">
+        <div className="lg:container mx-auto text-center my-32">
             <div className='space-y-5'>
                 <h5 className="text-xl text-error font-bold">Core Features</h5>
                 <h1 className="text-4xl font-bold text-black">Why Choose Us</h1>
