@@ -10,7 +10,7 @@ const Banner = () => {
                 <img
                     src={img1}
                     className="w-full h-full rounded" />
-                <div className="absolute flex h-full items-center bg-gradient-to-r from-slate-800 to-[rgba(21, 21, 21, 0)] bg-cover bg-no-repeat bg-center">
+                <div className="absolute flex h-full items-center bg-gradient-to-r from-slate-800 to-[rgba(21, 21, 21, 0)] bg-cover bg-no-repeat bg-center rounded-xl">
                     <div className='text-white w-1/2 ml-10 '>
                         <h2 className='text-6xl text-white font-bold mb-4'>Affordable Price For Car Servicing</h2>
                         <p className='text-white'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
@@ -29,7 +29,7 @@ const Banner = () => {
                 <img
                     src={img2}
                     className="w-full h-full rounded" />
-                <div className="absolute  flex h-full items-center bg-gradient-to-r from-slate-800 to-[rgba(21, 21, 21, 0)]">
+                <div className="absolute  flex h-full items-center bg-gradient-to-r from-slate-800 to-[rgba(21, 21, 21, 0)] rounded-xl">
                     <div className='text-white w-1/2 ml-10 '>
                         <h2 className='text-6xl text-white font-bold mb-4'>Affordable Price For Car Servicing</h2>
                         <p className='text-white'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
@@ -48,7 +48,7 @@ const Banner = () => {
                 <img
                     src={img3}
                     className="w-full h-full rounded" />
-                <div className="absolute flex h-full items-center bg-gradient-to-r from-slate-800 to-[rgba(21, 21, 21, 0)]">
+                <div className="absolute flex h-full items-center bg-gradient-to-r from-slate-800 to-[rgba(21, 21, 21, 0)] rounded-xl">
                     <div className='text-white w-1/2 ml-10 '>
                         <h2 className='text-6xl text-white font-bold mb-4'>Affordable Price For Car Servicing</h2>
                         <p className='text-white'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
@@ -67,7 +67,7 @@ const Banner = () => {
                 <img
                     src={img4}
                     className="w-full h-full rounded" />
-                <div className="absolute flex h-full items-center bg-gradient-to-r from-slate-800 to-[rgba(21, 21, 21, 0)]">
+                <div className="absolute flex h-full items-center bg-gradient-to-r from-slate-800 to-[rgba(21, 21, 21, 0)] rounded-xl">
                     <div className='text-white w-1/2 ml-10 '>
                         <h2 className='text-6xl text-white font-bold mb-4'>Affordable Price For Car Servicing</h2>
                         <p className='text-white'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
