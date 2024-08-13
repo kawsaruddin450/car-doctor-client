@@ -4,7 +4,9 @@ const Home = () => {
     return (
         <div>
             <h1>Home Page Coming Soon....</h1>
-            <Banner></Banner>
+            <div className="lg:container mx-auto">
+                <Banner></Banner>
+            </div>
         </div>
     );
 };
