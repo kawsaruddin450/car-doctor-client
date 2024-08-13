@@ -1,5 +1,6 @@
 import About from "../About/About";
 import Banner from "../Banner/Banner";
+import Services from "../Services/Services";
 
 const Home = () => {
     return (
@@ -7,6 +8,7 @@ const Home = () => {
             <div className="lg:container mx-auto">
                 <Banner></Banner>
                 <About></About>
+                <Services></Services>
             </div>
         </div>
     );
