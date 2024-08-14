@@ -23,6 +23,7 @@ const Checkoout = () => {
             service: _id,
             price: price,
             img: img,
+            title: title,
         }
         fetch('http://localhost:5000/checkouts', {
             method: "POST",
