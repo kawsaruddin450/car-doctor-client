@@ -53,7 +53,7 @@ const Checkoout = () => {
                             <input type="text" placeholder="your phone" name="phone" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
-                            <input type="email" placeholder="your email" defaultValue={user.email} name="email" className="input input-bordered" required readOnly />
+                            <input type="email" placeholder="your email" defaultValue={user?.email} name="email" className="input input-bordered" required readOnly />
                         </div>
                     </div>
                     <div className="form-control mt-6">
