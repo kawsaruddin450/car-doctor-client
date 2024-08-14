@@ -1,8 +1,11 @@
+import { useContext } from "react";
 import { useLoaderData } from "react-router-dom";
+import { AuthContext } from "../../providers/AuthProvider";
 
 const Checkoout = () => {
     const selectedService = useLoaderData();
-    const { _id, title, price } = selectedService;
+    const { _id, title, price, img } = selectedService;
+    const {user} = useContext(AuthContext);
 
     const handleCheckout = event => {
         event.preventDefault();
@@ -18,7 +21,8 @@ const Checkoout = () => {
             email,
             phone,
             service: _id,
-            price: price
+            price: price,
+            img: img,
         }
         fetch('http://localhost:5000/checkouts', {
             method: "POST",
@@ -49,7 +53,7 @@ const Checkoout = () => {
                             <input type="text" placeholder="your phone" name="phone" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
-                            <input type="email" placeholder="your email" name="email" className="input input-bordered" required />
+                            <input type="email" placeholder="your email" defaultValue={user.email} name="email" className="input input-bordered" required readOnly />
                         </div>
                     </div>
                     <div className="form-control mt-6">
