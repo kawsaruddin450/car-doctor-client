@@ -32,7 +32,7 @@ const AuthProvider = ({ children }) => {
                 const userEmail = {
                     email: currentUser.email,
                 }
-                fetch('http://localhost:5000/jwt', {
+                fetch('https://car-doctor-server-fawn-six.vercel.app/jwt', {
                     method: "POST",
                     headers: {
                         "content-type": "application/json"

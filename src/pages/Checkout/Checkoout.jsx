@@ -25,7 +25,7 @@ const Checkoout = () => {
             img: img,
             title: title,
         }
-        fetch('http://localhost:5000/checkouts', {
+        fetch('https://car-doctor-server-fawn-six.vercel.app/checkouts', {
             method: "POST",
             headers: {
                 "content-type": "application/json"
